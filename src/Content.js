@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Content() {
-    return (<div>
+    return (<div className='mainContent'>
         <h1>Hello Everyone!</h1>
         <p>Myself Antra Phukan. Here is a brief introduction about me:</p>
         <ul>

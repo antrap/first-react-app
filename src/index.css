@@ -13,9 +13,29 @@ code {
 }
 
 .nav-bar {
-  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+.nav-bar li {
+  color: white;
+  display: inline-block;
+  padding: 14px;
+}
+
+.mainContent {
+  background-color: grey;
+  margin: 0;
+  padding: 5px;
 }
 
 footer {
   color: blue;
+  background-color: grey;
+  padding: 2px;
+  text-align: center;
 }

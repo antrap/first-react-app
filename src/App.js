@@ -5,17 +5,16 @@ import Footer from './Footer';
 import Content from './Content';
 
 function App() {
-    return (
-        <div>
-            <Header />
-            <Content />
-            <Footer />
-        </div>
-    )
+  return (
+    <div>
+      <Header />
+      <Content />
+      <Footer />
+    </div>
+  )
 }
 
-
-ReactDOM.render(<App />, document.getElementById("root"));
+export default App;
 /*const content = (
   <div>
     <h1>Hello Everyone!</h1>
